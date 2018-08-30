@@ -15,21 +15,22 @@ Welcome.It is Tony Duan | a data analyst | R fans | coffee lover <!--more-->
 - Working on Anti-fraud modelling for one of the biggest life insurance company in China. 
 
 #### Decision Analytic Officer, HSBC, Consumer Credit Risk
-Developed analytical solution to bank in managing credit risk for Asia Pacific region. Including develop scorecard ,Basel model, Optimization strategic, Credit report for different type of banking product like credit card ,home loan for one of the best international bank in Asia Pacific area 
+- Developed analytical solution to bank in managing credit risk for Asia Pacific region.
+- Including develop scorecard ,Basel model, Optimization strategic, Credit report for different type of banking product like credit card ,home loan for one of the best international bank in Asia Pacific area. 
 
 
 
 ### Education:
-Bachelor of Commerce (with GPA 3.09)  
+Bachelor of Commerce (with GPA 3.09) Major in Decision science<br>
 Macquarie University, Sydney, Australia   
-Major in Decision science
+
 
 
 
 
 ### Skills:
-Computing Skills: SAS, SQL,R,Python<br>
-Languages:  English, Mandarin, Cantonese 
+- Computing Skills: SAS, SQL,R,Python<br>
+- Languages:  English, Mandarin, Cantonese 
 
 
 ### Honour and Award:
