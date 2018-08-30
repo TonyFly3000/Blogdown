@@ -3,22 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/life/iphone/</loc>
+    <loc>/blog/iphone/</loc>
     <lastmod>2018-08-30T22:00:43+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/life/machine-learning-over-coffee-with-josh-gordon/</loc>
+    <loc>/blog/machine-learning-over-coffee-with-josh-gordon/</loc>
     <lastmod>2018-08-30T21:57:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/life/how-overnight-shipping-works/</loc>
+    <loc>/blog/how-overnight-shipping-works/</loc>
     <lastmod>2018-08-30T21:55:37+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/get-r/</loc>
+    <loc>/blog/get-r/</loc>
     <lastmod>2018-08-30T21:52:42+08:00</lastmod>
   </url>
   
@@ -28,13 +28,18 @@
   </url>
   
   <url>
-    <loc>/project/get-python/</loc>
+    <loc>/blog/get-python/</loc>
     <lastmod>2018-08-30T21:54:42+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/life/seoul/</loc>
+    <loc>/blog/seoul/</loc>
     <lastmod>2018-08-30T21:44:57+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/taipei/</loc>
+    <lastmod>2018-08-31T00:28:41+08:00</lastmod>
   </url>
   
   <url>
@@ -48,8 +53,23 @@
   </url>
   
   <url>
+    <loc>/blog/tokyo/</loc>
+    <lastmod>2018-08-31T00:24:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/hanoi/</loc>
+    <lastmod>2018-08-31T00:20:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/sydney/</loc>
+    <lastmod>2018-08-31T00:24:52+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <lastmod>1988-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -59,19 +79,31 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/life/</loc>
+    <loc>/blog/</loc>
     <lastmod>2018-08-30T22:00:43+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/project/</loc>
+    <loc>/tags/book/</loc>
     <lastmod>2018-08-30T21:52:42+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/data/</loc>
+    <lastmod>2018-08-30T22:00:43+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/machine-learning/</loc>
+    <lastmod>2018-08-30T21:57:29+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -81,7 +113,38 @@
   </url>
   
   <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2018-08-30T21:54:42+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2018-08-30T21:52:42+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/shipping/</loc>
+    <lastmod>2018-08-30T21:55:37+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
+    <lastmod>2018-08-30T21:52:42+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/travel/</loc>
+    <lastmod>2018-08-30T21:44:57+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/video/</loc>
+    <lastmod>2018-08-30T22:00:43+08:00</lastmod>
     <priority>0</priority>
   </url>
   
