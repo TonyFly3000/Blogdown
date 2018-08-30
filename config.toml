@@ -1,0 +1,80 @@
+## Basic Configuration
+baseurl = "https://example.com/"
+languageCode = "en"
+
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+## Site Settings
+[params]
+    author = "Tony D"
+    title = "Title"
+    description = "Tony Duan"
+    authorimage = "/img/home_pic.jpg"
+    dateformat = "Jan 2, 2006"
+    highlightjs = true
+    highlightjsstyle = "github"
+    # please choose either GraphComment or Disqus
+
+## Social Accounts
+[params.social]
+    github = "<username>"
+    instagram = "<username>"
+    xing = "<username>"
+    linkedin = "<username>"
+    twitter = "<username>"
+    facebook = "<username>"
+    stackoverflow = "<username>"
+    telegram = "<username>"
+    email = "your-email@example.com"
+
+## Main Menu
+
+[[menu.main]]
+    name = "Home"
+    weight = 100
+    identifier = "home"
+    url = "http://127.0.0.1:4321/"
+    
+        
+    [[menu.main]]
+    name = "Project"
+    weight = 110
+    identifier = "Project"
+    url = "/Project/"
+    
+    [[menu.main]]
+    name = "Life"
+    weight = 120
+    identifier = "life"
+    url = "/life/"
+
+
+    
+[[menu.main]]
+    name = "Book"
+    weight = 130
+    identifier = "book"
+    url = "/book/"
+    
+    
+[[menu.main]]
+    name = "Posts"
+    weight = 140
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "Portfolio"
+    identifier = "portfolio"
+    weight = 150
+    url = "/portfolio/"
+    
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
