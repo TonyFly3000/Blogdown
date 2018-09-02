@@ -1,0 +1,16 @@
+---
+title: 'Infinite war: R vs Python '
+author: ''
+date: '2018-09-01'
+slug: infinite-war-r-vs-python
+categories: []
+tags: []
+lastmod: '2018-09-01T13:25:02+08:00'
+layout: post
+type: post
+#highlight: no
+---
+
+
+
+https://pandas.pydata.org/pandas-docs/stable/comparison_with_r.html

@@ -8,13 +8,12 @@ tags: []
 lastmod: '2018-08-31T00:24:11+08:00'
 layout: post
 type: post
-highlight: no
+#highlight: no
 description: 'Its Tokyo'
 ---
 
 ## Location:
 ```{r message=FALSE}
-#################################################
 library(leaflet)
 library(ggmap)
 location=geocode( "Tokyo" )

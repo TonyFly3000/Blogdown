@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on </title>
+    <link>/categories/python/</link>
+    <description>Recent content in Python on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Decision Tree model in python</title>
+      <link>/blog/decision-tree-in-python/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/decision-tree-in-python/</guid>
+      <description>import pacakges and load iris dataset
+from sklearn.datasets import load_irisfrom sklearn.model_selection import train_test_splitfrom sklearn import treefrom sklearn.metrics import accuracy_scoreiris = load_iris()print (iris.feature_names) # metadata: names of the features## [&amp;#39;sepal length (cm)&amp;#39;, &amp;#39;sepal width (cm)&amp;#39;, &amp;#39;petal length (cm)&amp;#39;, &amp;#39;petal width (cm)&amp;#39;]print (iris.target_names) # metadata: names of the different types of flowers## [&amp;#39;setosa&amp;#39; &amp;#39;versicolor&amp;#39; &amp;#39;virginica&amp;#39;]X = iris.data # featuresy = iris.target # labelsX_train is train features and X_test is test features</description>
+    </item>
+    
+    <item>
+      <title>KNN model in python</title>
+      <link>/blog/knn-in-python/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/knn-in-python/</guid>
+      <description>1.Get:import pacakges and load iris dataset
+from sklearn.datasets import load_irisfrom sklearn.model_selection import train_test_splitfrom sklearn.neighbors import KNeighborsClassifierfrom sklearn.metrics import accuracy_scoreiris = load_iris()2.CleanX_train is train features and X_test is test features.y_train is train label and y_test is test label.with 0.3 splict, we have 70% obs(105) for training and 30% obs(45) for testing.
+print (iris.feature_names) # metadata: names of the features## [&amp;#39;sepal length (cm)&amp;#39;, &amp;#39;sepal width (cm)&amp;#39;, &amp;#39;petal length (cm)&amp;#39;, &amp;#39;petal width (cm)&amp;#39;]print (iris.</description>
+    </item>
+    
+  </channel>
+</rss>
