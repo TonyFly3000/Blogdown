@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Classification handwritten digits with liner_classifer in python</title>
+      <link>/blog/classification-handwritten-digits-with-liner-classifer-in-python/</link>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/classification-handwritten-digits-with-liner-classifer-in-python/</guid>
+      <description>1.Get:import pacakges and load mnist dataset
+import matplotlib.pyplot as pltimport numpy as npimport tensorflow as tf## C:\ANACON~1\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.## from ._conv import register_converters as _register_converterslearn = tf.contrib.learntf.logging.set_verbosity(tf.logging.ERROR)# Import the dataset 28*28=784mnist = learn.datasets.load_dataset(&amp;#39;mnist&amp;#39;)## Extracting MNIST-data\train-images-idx3-ubyte.gz## Extracting MNIST-data\train-labels-idx1-ubyte.gz## Extracting MNIST-data\t10k-images-idx3-ubyte.</description>
+    </item>
+    
+    <item>
       <title>How AI can save our humanity by Kai-Fu Lee | 李开复：人工智能将拯救人类</title>
       <link>/blog/how-ai-can-save-our-humanity-by-kai-fu-lee/</link>
       <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
@@ -184,7 +194,7 @@ Heading 2Sollicitudin ornare odio blandit aenean enim lacus accumsan elementum 
     <item>
       <title>About Me</title>
       <link>/about/</link>
-      <pubDate>Fri, 29 Apr 1988 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 30 Apr 1988 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
       <description>&lt;p&gt;Welcome.It is Tony Duan | a data analyst | R fans | coffee lover &lt;/p&gt;</description>

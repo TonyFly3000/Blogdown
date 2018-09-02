@@ -6,10 +6,20 @@
     <description>Recent content in Machine Learning on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Classification handwritten digits with liner_classifer in python</title>
+      <link>/blog/classification-handwritten-digits-with-liner-classifer-in-python/</link>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/classification-handwritten-digits-with-liner-classifer-in-python/</guid>
+      <description>1.Get:import pacakges and load mnist dataset
+import matplotlib.pyplot as pltimport numpy as npimport tensorflow as tf## C:\ANACON~1\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.## from ._conv import register_converters as _register_converterslearn = tf.contrib.learntf.logging.set_verbosity(tf.logging.ERROR)# Import the dataset 28*28=784mnist = learn.datasets.load_dataset(&amp;#39;mnist&amp;#39;)## Extracting MNIST-data\train-images-idx3-ubyte.gz## Extracting MNIST-data\train-labels-idx1-ubyte.gz## Extracting MNIST-data\t10k-images-idx3-ubyte.</description>
+    </item>
     
     <item>
       <title>Decision Tree model in python</title>

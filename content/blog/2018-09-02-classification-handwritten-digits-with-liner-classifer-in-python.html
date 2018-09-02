@@ -1,0 +1,54 @@
+---
+title: Classification handwritten digits with liner_classifer in python
+author: ''
+date: '2018-09-02'
+slug: classification-handwritten-digits-with-liner-classifer-in-python
+categories: [data,python,machine learning]
+tags: []
+lastmod: '2018-09-02T23:19:56+08:00'
+layout: post
+type: post
+#highlight: no
+description: 'Classification handwritten digits with liner_classifer in python'
+---
+
+
+
+<p>1.Get:import pacakges and load mnist dataset</p>
+<pre class="python"><code>import matplotlib.pyplot as plt
+import numpy as np
+import tensorflow as tf</code></pre>
+<pre><code>## C:\ANACON~1\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+##   from ._conv import register_converters as _register_converters</code></pre>
+<pre class="python"><code>learn = tf.contrib.learn
+tf.logging.set_verbosity(tf.logging.ERROR)
+# Import the dataset 28*28=784
+mnist = learn.datasets.load_dataset(&#39;mnist&#39;)</code></pre>
+<pre><code>## Extracting MNIST-data\train-images-idx3-ubyte.gz
+## Extracting MNIST-data\train-labels-idx1-ubyte.gz
+## Extracting MNIST-data\t10k-images-idx3-ubyte.gz
+## Extracting MNIST-data\t10k-labels-idx1-ubyte.gz</code></pre>
+<pre class="python"><code>data = mnist.train.images
+labels = np.asarray(mnist.train.labels, dtype=np.int32)
+test_data = mnist.test.images
+test_labels = np.asarray(mnist.test.labels, dtype=np.int32)
+# limit size of datasets for a faster experiment
+max_examples = 10000
+data = data[:max_examples]
+labels = labels[:max_examples]
+# fit a linear classifier
+feature_columns = learn.infer_real_valued_columns_from_input(data)
+# define LinearClassifier model with 0-9 10 classes and define feature_columns variable
+classifier = learn.LinearClassifier(feature_columns=feature_columns, n_classes=10)
+#train the model
+classifier.fit(data, labels, batch_size=100, steps=1000)
+#evaluate linear classifier accuracy
+classifier.evaluate(test_data, test_labels)
+print(classifier.evaluate(test_data, test_labels)[&quot;accuracy&quot;])</code></pre>
+<pre><code>## 0.9137</code></pre>
+<pre class="python"><code>print(test_labels[5])</code></pre>
+<pre><code>## 1</code></pre>
+<pre class="python"><code>new_samples = np.array([test_data[5]], dtype=float)
+y = list(classifier.predict(new_samples, as_iterable=True))
+print(y)</code></pre>
+<pre><code>## [1]</code></pre>

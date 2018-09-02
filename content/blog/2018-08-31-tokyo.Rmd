@@ -21,8 +21,6 @@ m <- leaflet()%>%
   addTiles() %>%  # Add default OpenStreetMap map tiles
   setView(lng=location$lon, lat=location$lat, zoom = 05) %>%
 addMarkers(lng=location$lon, lat=location$lat, popup="Tokyo")
-
-
 m
 
 ```
